@@ -78,12 +78,12 @@ EXACT_MAP = {
 FINGER_ORDER = {
     "Thumb": "thumb",
     "Index": "index",
-    "Middle": "middle",
+    "Mid": "middle",
     "Ring": "ring",
     "Pinky": "pinky",
 }
-FINGER_PATTERN = re.compile(r"CC_Base_(L|R)_(Thumb|Index|Middle|Ring|Pinky)(\d+)$")
-ALT_FINGER_PATTERN = re.compile(r"(Left|Right)Hand(Thumb|Index|Middle|Ring|Pinky)(\d+)$")
+FINGER_PATTERN = re.compile(r"CC_Base_(L|R)_(Thumb|Index|Mid|Ring|Pinky)(\d+)$")
+ALT_FINGER_PATTERN = re.compile(r"(Left|Right)Hand(Thumb|Index|Mid|Ring|Pinky)(\d+)$")
 TOE_PATTERN = re.compile(r"CC_Base_(L|R)_(BigToe|SmallToe)(\d+)$")
 
 SIDE_SUFFIX = {"L": "_l", "R": "_r", "Left": "_l", "Right": "_r"}
