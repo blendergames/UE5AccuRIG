@@ -3,7 +3,7 @@ UE5용 컨트롤릭 사용을 위한 캐릭터 제작
 
 AccuRig Bledner용 본구조
 ```mermaid
-flowchart TD
+flowchart LR
   Armature --> RL_BoneRoot
   RL_BoneRoot --> CC_Base_Hip
   CC_Base_Hip --> CC_Base_Pelvis
@@ -136,6 +136,7 @@ flowchart TD
   CC_Base_R_RibsTwist --> CC_Base_R_Breast
   CC_Base_Spine02 --> CC_Base_L_RibsTwist
   CC_Base_L_RibsTwist --> CC_Base_L_Breast
+
 ```
 
 ```
